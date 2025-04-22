@@ -11,8 +11,6 @@ import Link from 'next/link';
 import Dashboard from './dashboard1';
 
 
-import { from } from '@web3-storage/w3up-client/principal/ed25519';
-
 export default function Index({AllData, HealthData, EducationData,AnimalData}) {
   const [filter, setFilter] = useState(AllData);
 
